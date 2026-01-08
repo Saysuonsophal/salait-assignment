@@ -134,15 +134,15 @@
         <p style="font-size: 20px">Quantity:</p>
         <div class="cart">
           <div class="Quantity">
-            <div class="button-mp">
+            <div class="button-mp" id="minus">
               <i data-lucide="minus" class="icon-lucide"></i>
             </div>
-            <input type="number" min="1" value="1" />
-            <div class="button-mp">
+            <input type="number" min="1" value="1" id="number"/>
+            <div class="button-mp" id="plus">
               <i data-lucide="plus" class="icon-lucide"></i>
             </div>
           </div>
-          <div class="button addcart">Add to Cart</div>
+          <div class="button addcart" >Add to Cart</div>
           <div class="button buy">Buy</div>
         </div>
       </div>
@@ -328,4 +328,5 @@
       lucide.createIcons();
     </script>
   </body>
+  <script src="./javscript.js"></script>
 </html>

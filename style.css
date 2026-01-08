@@ -227,6 +227,7 @@ body {
   overflow-y: visible;
   padding-bottom: 5px;
 }
+/* Customize scrollbar for WebKit browsers */
 .image-carousel::-webkit-scrollbar {
   height: 2px; /* For horizontal scrollbars */
 }
